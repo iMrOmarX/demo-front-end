@@ -1,0 +1,26 @@
+.document-form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side-document-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.right-side-document-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    margin: 20px;
+    padding: 5px;
+}
+
+.right-side-document-form>.item {
+    margin: 5px;
+    padding: 5px;
+}
