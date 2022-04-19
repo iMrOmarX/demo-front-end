@@ -40,8 +40,9 @@ function Form() {
 
   }
   return (
-    <>
-    <div className='document-form item'>
+    <div className='app '>
+     
+    <div className='document-form item center'>
         <div className='left-side-document-form item'>
 
           <label className='item'>Document</label>
@@ -86,8 +87,8 @@ function Form() {
         </div>
 
     </div>
-    <button onClick={() => sendData()}>Send to Database</button>
-    </>
+    <button onClick={() => sendData()} className="center">Send to Database</button>
+    </div>
   )
 }
 
